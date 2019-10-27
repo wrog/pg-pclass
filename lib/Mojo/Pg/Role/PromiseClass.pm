@@ -31,9 +31,9 @@ Mojo::Pg::Role::PromiseClass - Choose the Promise class used by Mojo::Pg
 
 =head1 DESCRIPTION
 
-L<Mojo::Pg::Role::PromiseClass> is a role that allows specifying the promise class to be used for the promise-returning methods like L<Mojo::Pg::Database/select_p> and L<Mojo::Pg::Database/insert_p>, if you want something different from L<Mojo::Promise>.
+L<Mojo::Pg::Role::PromiseClass> is a role that allows specifying the promise class to be used for the promise-returning methods like (L<Mojo::Pg::Database>'s) L<select_p|Mojo::Pg::Database/select_p> and L<insert_p|Mojo::Pg::Database/insert_p>, if you want something different from L<Mojo::Promise>.
 
-Note that if you are also using a custom L<database_class|Mojo::Pg/database_class>, you will need to extend it using L<Mojo::Pg::Database::Role::PgPromiseClass/synopsis>.
+Note that if you are also using a custom L<database_class|Mojo::Pg/database_class>, you will need to extend it as shown in L<Mojo::Pg::Database::Role::PgPromiseClass/SYNOPSIS>.
 
 =head1 ATTRIBUTES
 
