@@ -15,10 +15,6 @@ __END__
 
 =encoding utf8
 
-=head1 NAME
-
-Mojo::Pg::Role::PromiseClass - Choose the Promise class used by Mojo::Pg
-
 =head1 SYNOPSIS
 
   $pg = Mojo::Pg->new(...)->with_roles('+PromiseClass')
