@@ -1,4 +1,6 @@
 {{$NEXT}}
+	* promise_roles now allows empty list
+	  (see Mojo::Base::Role::PromiseClass)
 	* Artistic License 2.0 (same as Mojolicious)
 
 0.001     Oct 26 2019
